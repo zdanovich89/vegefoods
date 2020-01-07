@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./nav";
+import { Nav } from "./nav";
 
 class NavBar extends React.Component {
   constructor() {
@@ -37,4 +37,4 @@ class NavBar extends React.Component {
   }
 }
 
-export default NavBar;
+export { NavBar };

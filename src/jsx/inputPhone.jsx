@@ -8,11 +8,11 @@ class InputPhone extends React.Component {
   render() {
     return (
       <>
-        <input maxLength="13"
+        <input
+          maxLength="13"
           type="text"
           value={this.state.text}
           onChange={evt => {
-            
             this.setState({
               numbers: evt.target.value
             });

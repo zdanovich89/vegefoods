@@ -30,7 +30,7 @@ class HomeSlider extends React.Component {
                     className="row slider-text justify-content-center align-items-center"
                     data-scrollax-parent="true"
                   >
-                    <div className="col-md-12 ftco-animate text-center">
+                    <div className="col-md-12  text-center">
                       <h1 className="mb-2">{item.h1}</h1>
                       <h2 className="subheading mb-4">
                         We deliver organic vegetables &amp; fruits
@@ -52,4 +52,4 @@ class HomeSlider extends React.Component {
   }
 }
 
-export default HomeSlider;
+export { HomeSlider };

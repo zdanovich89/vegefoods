@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
-import NavBar from "./jsx/navBar";
-import "./css/style.css";
-import "./css/icomoon.css";
+import { NavBar } from "./jsx/navBar";
 import { Primary } from "./jsx/primary";
-import Nav from "./jsx/nav";
-import HomeSlider from "./jsx/homeSlider";
-import InputPhone from "./jsx/inputPhone";
+import { Nav } from "./jsx/nav";
+import { ShopHeader } from "./jsx/shopHeader";
+import { FtcoSection } from "./jsx/ftcoSection";
+import { EmailSection } from "./jsx/emailSection";
+import { Footer } from "./jsx/footer";
+
 
 ReactDOM.render(
   <div>
@@ -15,8 +16,10 @@ ReactDOM.render(
     <NavBar>
       <Nav />
     </NavBar>
-    <HomeSlider />
-    {/* <InputPhone/> */}
+    <ShopHeader />
+    < FtcoSection/>
+    <EmailSection />
+    <Footer />
   </div>,
   document.getElementById("root")
 );
