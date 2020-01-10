@@ -8,7 +8,7 @@ import { ShopHeader } from "./jsx/shopHeader";
 import { FtcoSection } from "./jsx/ftcoSection";
 import { EmailSection } from "./jsx/emailSection";
 import { Footer } from "./jsx/footer";
-
+import { InputPhone } from "./jsx/inputPhone";
 
 ReactDOM.render(
   <div>
@@ -17,9 +17,10 @@ ReactDOM.render(
       <Nav />
     </NavBar>
     <ShopHeader />
-    < FtcoSection/>
+    <FtcoSection />
     <EmailSection />
     <Footer />
+    <InputPhone />
   </div>,
   document.getElementById("root")
 );
